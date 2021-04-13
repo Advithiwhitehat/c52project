@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    background-color: rgb(255, 228, 154);
+}
+h1{
+    color: black;
+}
+.links{
+    margin-top: -20px;
+    font-size: 10px;
+}
+.header{
+    background-color:rgb(255, 79, 79);
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 79, 79);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #000000; 
+}
+.menu h3{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #000000; 
+    margin-right:400px
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid img{
+    border: black;
+    border-radius: 50px;
+}
+.origami {
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: sans-serif;
+    position:relative;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color: rgb(255, 228, 154);
+}
+.origami p{
+    position:absolute;
+}
+.origami p{
+    opacity: 0;
+}
+.origami:hover p{
+    opacity: 1;
+}
